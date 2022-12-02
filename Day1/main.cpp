@@ -3,14 +3,15 @@
 #include <cstdlib>
 #include <cstring>
 
-const int n = 3;
-
 int main()
 {
     std::ifstream input_file("input.txt");
-    char buffer[1024];
-    int calorie_count = 0;
+    char buffer[64];
+
+    const int n = 3;
     int top_n_calories[n];
+    
+    int calorie_count = 0;
 
     // zero out calorie counting array
     for(int i = 0; i < n; i++)
