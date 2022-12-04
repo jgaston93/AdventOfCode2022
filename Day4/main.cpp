@@ -9,7 +9,7 @@ int main()
     std::ifstream input_file("input.txt");
     char buffer[128];
 
-    int num_overlaps = 0;
+    int num_partial_overlaps = 0;
     int num_total_overlaps = 0;
 
     while(input_file.peek() != EOF)
@@ -17,23 +17,22 @@ int main()
         input_file.getline(buffer, sizeof(buffer));
         int bytes_read = strlen(buffer);
         
-        int start_1, end_1, start_2, end_2;
+        int lower_1, upper_1, lower_2, upper_2;
 
-        sscanf(buffer, "%d-%d,%d-%d", &start_1, &end_1, &start_2, &end_2);
-
-        if((start_1 <= start_2 && end_1 >= start_2) ||
-            (start_2 <= start_1 && end_2 >= start_1))
+        sscanf(buffer, "%d-%d,%d-%d", &lower_1, &upper_1, &lower_2, &upper_2);
+        
+        if(upper_1 >= lower_2 && upper_2 >= lower_1)
         {
-            num_overlaps++;
-            if(start_1 <= start_2 && end_1 >= end_2 ||
-                start_2 <= start_1 && end_2 >= end_1)
+            num_partial_overlaps++;
+            if(lower_1 >= lower_2 && upper_2 >= upper_1 ||
+                lower_2 >= lower_1 && upper_1 >= upper_2)
             {
-                num_total_overlaps++;   
-            }
+                num_total_overlaps++;
+            }   
         }
     }
 
-    printf("Num Overlaps: %d Total Overlaps: %d\n", num_overlaps, num_total_overlaps);
+    printf("Partial Overlaps: %d Total Overlaps: %d\n", num_partial_overlaps, num_total_overlaps);
 
     return 0;
 }
