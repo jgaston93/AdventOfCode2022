@@ -63,5 +63,7 @@ int main()
 
     printf("Sum: %d\n", sum);
 
+    input_file.close();
+
     return 0;
 }

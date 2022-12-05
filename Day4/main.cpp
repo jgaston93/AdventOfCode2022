@@ -33,6 +33,8 @@ int main()
     }
 
     printf("Partial Overlaps: %d Total Overlaps: %d\n", num_partial_overlaps, num_total_overlaps);
+    
+    input_file.close();
 
     return 0;
 }

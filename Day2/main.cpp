@@ -57,6 +57,7 @@ int main()
 
     printf("Total Score: %d\n", score);
 
+    input_file.close();
 
     return 0;
 }

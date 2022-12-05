@@ -53,6 +53,8 @@ int main()
     }
 
     printf("Sum: %d\n", priority_sum);
+    
+    input_file.close();
 
     return 0;
 }
