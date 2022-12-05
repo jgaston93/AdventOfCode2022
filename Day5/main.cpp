@@ -8,7 +8,6 @@ const int max_stack_height = 64;
 
 char pop(char* stack, int* stack_height);
 void push(char* stack, int* stack_height, char crate);
-void print_stack(char* stack, int stack_height);
 
 int main()
 {
@@ -18,6 +17,10 @@ int main()
     // Stacks
     char stacks[num_stacks][max_stack_height];
     int stack_heights[num_stacks];
+
+    // Intermediate stack for CrateMover 9001
+    char intermediate_stack[max_stack_height];
+    int intermediate_stack_height = 0;
 
     // Initialize all stack heights to 0
     for(int i = 0; i < num_stacks; i++)
@@ -37,12 +40,12 @@ int main()
             {
                 stacks[i][stack_heights[i]++] = buffer[buffer_index];
             }
-            buffer_index += 4;
+            buffer_index += 4; // Crate appears every fourth index
         }
         input_file.getline(buffer, sizeof(buffer));
     }
 
-    // Reverse arrays 
+    // Reverse arrays
     for(int i = 0; i < num_stacks; i++)
     {
         for(int j = 0; j < stack_heights[i] / 2; j++)
@@ -56,6 +59,7 @@ int main()
     // Skip blank line
     input_file.getline(buffer, sizeof(buffer));
 
+    // Begin moving crates
     while(input_file.peek() != EOF)
     {
         input_file.getline(buffer, sizeof(buffer));
@@ -66,6 +70,11 @@ int main()
         for(int i = 0; i < quantity; i++)
         {
             int crate = pop(stacks[source - 1], &stack_heights[source - 1]);
+            push(intermediate_stack, &intermediate_stack_height, crate);
+        }
+        for(int i = 0; i < quantity; i++)
+        {
+            int crate = pop(intermediate_stack, &intermediate_stack_height);
             push(stacks[destination - 1], &stack_heights[destination - 1], crate);
         }
     }
@@ -100,14 +109,4 @@ void push(char* stack, int* stack_height, char crate)
         stack[*stack_height] = crate;
         *stack_height += 1;
     }
-}
-
-
-void print_stack(char* stack, int stack_height)
-{
-    for(int i = 0; i < stack_height; i++)
-    {
-        printf("[%c] ", stack[i]);
-    }
-    printf("\n");
 }
