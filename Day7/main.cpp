@@ -128,9 +128,9 @@ int main()
         }
 
         int new_free_space = current_free_space + dir->size;
-        if(new_free_space > target_free_space)
+        if(new_free_space >= target_free_space)
         {
-            int difference = target_free_space - new_free_space;
+            int difference = new_free_space - target_free_space;
             if(difference < minimum)
             {
                 minimum = difference;
@@ -159,6 +159,7 @@ int calculate_sum(Directory* directory)
     {
         sum += directory->files[i]->size;
     }
+    
     if(directory->num_directories > 0)
     {
         for(int i = 0; i < directory->num_directories; i++)
