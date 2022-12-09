@@ -53,8 +53,7 @@ int main()
     {
         input_file.getline(buffer, sizeof(buffer));
 
-        // Create vector 
-
+        // Create vector to move head
         Vec2 move_vec;
         char direction = buffer[0];
         int distance = atoi(&buffer[2]);
@@ -77,17 +76,21 @@ int main()
 
         for(int i = 0; i < distance; i++)
         {
+            // Move head
             knots[0] = knots[0] + move_vec;
 
+            // Move other knots
             for(int j = 1; j < num_knots; j++)
             {
                 Vec2 pos_diff = knots[j - 1] - knots[j];
 
+                // If not adjacent to previous knot move
                 if(abs(pos_diff.x) > 1 || abs(pos_diff.y) > 1)
-                {
-                    pos_diff.shorten();
+                {                    
+                    pos_diff.shorten(); // Can only move 1 step in any direction
                     knots[j] = knots[j] + pos_diff;
                     
+                    // Check position of last knot
                     if(j == num_knots - 1)
                     {
                         bool visited = false;
