@@ -9,15 +9,18 @@ class Monkey
         Monkey();
         ~Monkey();
         void SetOperation(Operation *operation);
-        void SetTest(int value, Monkey *monkey_1, Monkey *monkey_2);
+        void SetTest(unsigned long long int value, Monkey *monkey_1, Monkey *monkey_2);
         void TakeTurn();
-        void GiveItem(int item);
+        void GiveItem(unsigned long long int item);
+        int GetItems(unsigned long long int* items);
+        unsigned long long int GetNumInspections();
 
     private:
-        int m_item_list[64];
+        unsigned long long int m_num_inspections;
+        unsigned long long int m_item_list[64];
         int m_num_items;
         Operation *m_operation;
-        int m_test_value;
+        unsigned long long int m_test_value;
         Monkey *m_monkey_1;
         Monkey *m_monkey_2;
 };

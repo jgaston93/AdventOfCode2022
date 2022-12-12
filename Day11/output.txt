@@ -1,0 +1,526 @@
+Monkey[0]:
+    Starting Items: 79 98 
+    Multiply operation: 19
+    Test value: 23 Monkey indices: 2 3
+
+Monkey[1]:
+    Starting Items: 54 65 75 74 
+    Add operation: 6
+    Test value: 19 Monkey indices: 2 0
+
+Monkey[2]:
+    Starting Items: 79 60 97 
+    Multiply self operation
+    Test value: 13 Monkey indices: 1 3
+
+Monkey[3]:
+    Starting Items: 74 
+    Add operation: 3
+    Test value: 17 Monkey indices: 0 1
+
+
+Round 0: 
+    Monkey 0: 
+        Worry Level 0: 79 -> 1501
+        Worry Level 1: 98 -> 1862
+    Monkey 1: 
+        Worry Level 0: 54 -> 60
+        Worry Level 1: 65 -> 71
+        Worry Level 2: 75 -> 81
+        Worry Level 3: 74 -> 80
+    Monkey 2: 
+        Worry Level 0: 79 -> 6241
+        Worry Level 1: 60 -> 3600
+        Worry Level 2: 97 -> 9409
+    Monkey 3: 
+        Worry Level 0: 74 -> 77
+        Worry Level 1: 2 -> 5
+        Worry Level 2: 2 -> 5
+        Worry Level 3: 3 -> 6
+        Worry Level 4: 3 -> 6
+        Worry Level 5: 3 -> 6
+Round 1: 
+    Monkey 0: 
+        Worry Level 0: 1 -> 19
+        Worry Level 1: 1 -> 19
+        Worry Level 2: 1 -> 19
+        Worry Level 3: 1 -> 19
+        Worry Level 4: 0 -> 0
+        Worry Level 5: 0 -> 0
+        Worry Level 6: 0 -> 0
+        Worry Level 7: 0 -> 0
+        Worry Level 8: 0 -> 0
+    Monkey 1: 
+        Worry Level 0: 1 -> 7
+    Monkey 2: 
+        Worry Level 0: 0 -> 0
+        Worry Level 1: 0 -> 0
+        Worry Level 2: 0 -> 0
+        Worry Level 3: 0 -> 0
+        Worry Level 4: 0 -> 0
+    Monkey 3: 
+        Worry Level 0: 9223372036854775808 -> 9223372036854775811
+        Worry Level 1: 9223372036854775808 -> 9223372036854775811
+        Worry Level 2: 9223372036854775808 -> 9223372036854775811
+        Worry Level 3: 9223372036854775808 -> 9223372036854775811
+        Worry Level 4: 9223372036854775808 -> 9223372036854775811
+        Worry Level 5: 9223372036854775808 -> 9223372036854775811
+        Worry Level 6: 9223372036854775808 -> 9223372036854775811
+        Worry Level 7: 9223372036854775808 -> 9223372036854775811
+        Worry Level 8: 9223372036854775808 -> 9223372036854775811
+        Worry Level 9: 9223372036854775808 -> 9223372036854775811
+Round 2: 
+    Monkey 0: 
+    Monkey 1: 
+        Worry Level 0: 15 -> 21
+        Worry Level 1: 15 -> 21
+        Worry Level 2: 15 -> 21
+        Worry Level 3: 15 -> 21
+        Worry Level 4: 15 -> 21
+        Worry Level 5: 15 -> 21
+        Worry Level 6: 15 -> 21
+        Worry Level 7: 15 -> 21
+        Worry Level 8: 15 -> 21
+        Worry Level 9: 15 -> 21
+    Monkey 2: 
+    Monkey 3: 
+Round 3: 
+    Monkey 0: 
+        Worry Level 0: 1 -> 19
+        Worry Level 1: 1 -> 19
+        Worry Level 2: 1 -> 19
+        Worry Level 3: 1 -> 19
+        Worry Level 4: 1 -> 19
+        Worry Level 5: 1 -> 19
+        Worry Level 6: 1 -> 19
+        Worry Level 7: 1 -> 19
+        Worry Level 8: 1 -> 19
+        Worry Level 9: 1 -> 19
+    Monkey 1: 
+    Monkey 2: 
+        Worry Level 0: 0 -> 0
+        Worry Level 1: 0 -> 0
+        Worry Level 2: 0 -> 0
+        Worry Level 3: 0 -> 0
+        Worry Level 4: 0 -> 0
+        Worry Level 5: 0 -> 0
+        Worry Level 6: 0 -> 0
+        Worry Level 7: 0 -> 0
+        Worry Level 8: 0 -> 0
+        Worry Level 9: 0 -> 0
+    Monkey 3: 
+        Worry Level 0: 9223372036854775808 -> 9223372036854775811
+        Worry Level 1: 9223372036854775808 -> 9223372036854775811
+        Worry Level 2: 9223372036854775808 -> 9223372036854775811
+        Worry Level 3: 9223372036854775808 -> 9223372036854775811
+        Worry Level 4: 9223372036854775808 -> 9223372036854775811
+        Worry Level 5: 9223372036854775808 -> 9223372036854775811
+        Worry Level 6: 9223372036854775808 -> 9223372036854775811
+        Worry Level 7: 9223372036854775808 -> 9223372036854775811
+        Worry Level 8: 9223372036854775808 -> 9223372036854775811
+        Worry Level 9: 9223372036854775808 -> 9223372036854775811
+Round 4: 
+    Monkey 0: 
+    Monkey 1: 
+        Worry Level 0: 15 -> 21
+        Worry Level 1: 15 -> 21
+        Worry Level 2: 15 -> 21
+        Worry Level 3: 15 -> 21
+        Worry Level 4: 15 -> 21
+        Worry Level 5: 15 -> 21
+        Worry Level 6: 15 -> 21
+        Worry Level 7: 15 -> 21
+        Worry Level 8: 15 -> 21
+        Worry Level 9: 15 -> 21
+    Monkey 2: 
+    Monkey 3: 
+Round 5: 
+    Monkey 0: 
+        Worry Level 0: 1 -> 19
+        Worry Level 1: 1 -> 19
+        Worry Level 2: 1 -> 19
+        Worry Level 3: 1 -> 19
+        Worry Level 4: 1 -> 19
+        Worry Level 5: 1 -> 19
+        Worry Level 6: 1 -> 19
+        Worry Level 7: 1 -> 19
+        Worry Level 8: 1 -> 19
+        Worry Level 9: 1 -> 19
+    Monkey 1: 
+    Monkey 2: 
+        Worry Level 0: 0 -> 0
+        Worry Level 1: 0 -> 0
+        Worry Level 2: 0 -> 0
+        Worry Level 3: 0 -> 0
+        Worry Level 4: 0 -> 0
+        Worry Level 5: 0 -> 0
+        Worry Level 6: 0 -> 0
+        Worry Level 7: 0 -> 0
+        Worry Level 8: 0 -> 0
+        Worry Level 9: 0 -> 0
+    Monkey 3: 
+        Worry Level 0: 9223372036854775808 -> 9223372036854775811
+        Worry Level 1: 9223372036854775808 -> 9223372036854775811
+        Worry Level 2: 9223372036854775808 -> 9223372036854775811
+        Worry Level 3: 9223372036854775808 -> 9223372036854775811
+        Worry Level 4: 9223372036854775808 -> 9223372036854775811
+        Worry Level 5: 9223372036854775808 -> 9223372036854775811
+        Worry Level 6: 9223372036854775808 -> 9223372036854775811
+        Worry Level 7: 9223372036854775808 -> 9223372036854775811
+        Worry Level 8: 9223372036854775808 -> 9223372036854775811
+        Worry Level 9: 9223372036854775808 -> 9223372036854775811
+Round 6: 
+    Monkey 0: 
+    Monkey 1: 
+        Worry Level 0: 15 -> 21
+        Worry Level 1: 15 -> 21
+        Worry Level 2: 15 -> 21
+        Worry Level 3: 15 -> 21
+        Worry Level 4: 15 -> 21
+        Worry Level 5: 15 -> 21
+        Worry Level 6: 15 -> 21
+        Worry Level 7: 15 -> 21
+        Worry Level 8: 15 -> 21
+        Worry Level 9: 15 -> 21
+    Monkey 2: 
+    Monkey 3: 
+Round 7: 
+    Monkey 0: 
+        Worry Level 0: 1 -> 19
+        Worry Level 1: 1 -> 19
+        Worry Level 2: 1 -> 19
+        Worry Level 3: 1 -> 19
+        Worry Level 4: 1 -> 19
+        Worry Level 5: 1 -> 19
+        Worry Level 6: 1 -> 19
+        Worry Level 7: 1 -> 19
+        Worry Level 8: 1 -> 19
+        Worry Level 9: 1 -> 19
+    Monkey 1: 
+    Monkey 2: 
+        Worry Level 0: 0 -> 0
+        Worry Level 1: 0 -> 0
+        Worry Level 2: 0 -> 0
+        Worry Level 3: 0 -> 0
+        Worry Level 4: 0 -> 0
+        Worry Level 5: 0 -> 0
+        Worry Level 6: 0 -> 0
+        Worry Level 7: 0 -> 0
+        Worry Level 8: 0 -> 0
+        Worry Level 9: 0 -> 0
+    Monkey 3: 
+        Worry Level 0: 9223372036854775808 -> 9223372036854775811
+        Worry Level 1: 9223372036854775808 -> 9223372036854775811
+        Worry Level 2: 9223372036854775808 -> 9223372036854775811
+        Worry Level 3: 9223372036854775808 -> 9223372036854775811
+        Worry Level 4: 9223372036854775808 -> 9223372036854775811
+        Worry Level 5: 9223372036854775808 -> 9223372036854775811
+        Worry Level 6: 9223372036854775808 -> 9223372036854775811
+        Worry Level 7: 9223372036854775808 -> 9223372036854775811
+        Worry Level 8: 9223372036854775808 -> 9223372036854775811
+        Worry Level 9: 9223372036854775808 -> 9223372036854775811
+Round 8: 
+    Monkey 0: 
+    Monkey 1: 
+        Worry Level 0: 15 -> 21
+        Worry Level 1: 15 -> 21
+        Worry Level 2: 15 -> 21
+        Worry Level 3: 15 -> 21
+        Worry Level 4: 15 -> 21
+        Worry Level 5: 15 -> 21
+        Worry Level 6: 15 -> 21
+        Worry Level 7: 15 -> 21
+        Worry Level 8: 15 -> 21
+        Worry Level 9: 15 -> 21
+    Monkey 2: 
+    Monkey 3: 
+Round 9: 
+    Monkey 0: 
+        Worry Level 0: 1 -> 19
+        Worry Level 1: 1 -> 19
+        Worry Level 2: 1 -> 19
+        Worry Level 3: 1 -> 19
+        Worry Level 4: 1 -> 19
+        Worry Level 5: 1 -> 19
+        Worry Level 6: 1 -> 19
+        Worry Level 7: 1 -> 19
+        Worry Level 8: 1 -> 19
+        Worry Level 9: 1 -> 19
+    Monkey 1: 
+    Monkey 2: 
+        Worry Level 0: 0 -> 0
+        Worry Level 1: 0 -> 0
+        Worry Level 2: 0 -> 0
+        Worry Level 3: 0 -> 0
+        Worry Level 4: 0 -> 0
+        Worry Level 5: 0 -> 0
+        Worry Level 6: 0 -> 0
+        Worry Level 7: 0 -> 0
+        Worry Level 8: 0 -> 0
+        Worry Level 9: 0 -> 0
+    Monkey 3: 
+        Worry Level 0: 9223372036854775808 -> 9223372036854775811
+        Worry Level 1: 9223372036854775808 -> 9223372036854775811
+        Worry Level 2: 9223372036854775808 -> 9223372036854775811
+        Worry Level 3: 9223372036854775808 -> 9223372036854775811
+        Worry Level 4: 9223372036854775808 -> 9223372036854775811
+        Worry Level 5: 9223372036854775808 -> 9223372036854775811
+        Worry Level 6: 9223372036854775808 -> 9223372036854775811
+        Worry Level 7: 9223372036854775808 -> 9223372036854775811
+        Worry Level 8: 9223372036854775808 -> 9223372036854775811
+        Worry Level 9: 9223372036854775808 -> 9223372036854775811
+Round 10: 
+    Monkey 0: 
+    Monkey 1: 
+        Worry Level 0: 15 -> 21
+        Worry Level 1: 15 -> 21
+        Worry Level 2: 15 -> 21
+        Worry Level 3: 15 -> 21
+        Worry Level 4: 15 -> 21
+        Worry Level 5: 15 -> 21
+        Worry Level 6: 15 -> 21
+        Worry Level 7: 15 -> 21
+        Worry Level 8: 15 -> 21
+        Worry Level 9: 15 -> 21
+    Monkey 2: 
+    Monkey 3: 
+Round 11: 
+    Monkey 0: 
+        Worry Level 0: 1 -> 19
+        Worry Level 1: 1 -> 19
+        Worry Level 2: 1 -> 19
+        Worry Level 3: 1 -> 19
+        Worry Level 4: 1 -> 19
+        Worry Level 5: 1 -> 19
+        Worry Level 6: 1 -> 19
+        Worry Level 7: 1 -> 19
+        Worry Level 8: 1 -> 19
+        Worry Level 9: 1 -> 19
+    Monkey 1: 
+    Monkey 2: 
+        Worry Level 0: 0 -> 0
+        Worry Level 1: 0 -> 0
+        Worry Level 2: 0 -> 0
+        Worry Level 3: 0 -> 0
+        Worry Level 4: 0 -> 0
+        Worry Level 5: 0 -> 0
+        Worry Level 6: 0 -> 0
+        Worry Level 7: 0 -> 0
+        Worry Level 8: 0 -> 0
+        Worry Level 9: 0 -> 0
+    Monkey 3: 
+        Worry Level 0: 9223372036854775808 -> 9223372036854775811
+        Worry Level 1: 9223372036854775808 -> 9223372036854775811
+        Worry Level 2: 9223372036854775808 -> 9223372036854775811
+        Worry Level 3: 9223372036854775808 -> 9223372036854775811
+        Worry Level 4: 9223372036854775808 -> 9223372036854775811
+        Worry Level 5: 9223372036854775808 -> 9223372036854775811
+        Worry Level 6: 9223372036854775808 -> 9223372036854775811
+        Worry Level 7: 9223372036854775808 -> 9223372036854775811
+        Worry Level 8: 9223372036854775808 -> 9223372036854775811
+        Worry Level 9: 9223372036854775808 -> 9223372036854775811
+Round 12: 
+    Monkey 0: 
+    Monkey 1: 
+        Worry Level 0: 15 -> 21
+        Worry Level 1: 15 -> 21
+        Worry Level 2: 15 -> 21
+        Worry Level 3: 15 -> 21
+        Worry Level 4: 15 -> 21
+        Worry Level 5: 15 -> 21
+        Worry Level 6: 15 -> 21
+        Worry Level 7: 15 -> 21
+        Worry Level 8: 15 -> 21
+        Worry Level 9: 15 -> 21
+    Monkey 2: 
+    Monkey 3: 
+Round 13: 
+    Monkey 0: 
+        Worry Level 0: 1 -> 19
+        Worry Level 1: 1 -> 19
+        Worry Level 2: 1 -> 19
+        Worry Level 3: 1 -> 19
+        Worry Level 4: 1 -> 19
+        Worry Level 5: 1 -> 19
+        Worry Level 6: 1 -> 19
+        Worry Level 7: 1 -> 19
+        Worry Level 8: 1 -> 19
+        Worry Level 9: 1 -> 19
+    Monkey 1: 
+    Monkey 2: 
+        Worry Level 0: 0 -> 0
+        Worry Level 1: 0 -> 0
+        Worry Level 2: 0 -> 0
+        Worry Level 3: 0 -> 0
+        Worry Level 4: 0 -> 0
+        Worry Level 5: 0 -> 0
+        Worry Level 6: 0 -> 0
+        Worry Level 7: 0 -> 0
+        Worry Level 8: 0 -> 0
+        Worry Level 9: 0 -> 0
+    Monkey 3: 
+        Worry Level 0: 9223372036854775808 -> 9223372036854775811
+        Worry Level 1: 9223372036854775808 -> 9223372036854775811
+        Worry Level 2: 9223372036854775808 -> 9223372036854775811
+        Worry Level 3: 9223372036854775808 -> 9223372036854775811
+        Worry Level 4: 9223372036854775808 -> 9223372036854775811
+        Worry Level 5: 9223372036854775808 -> 9223372036854775811
+        Worry Level 6: 9223372036854775808 -> 9223372036854775811
+        Worry Level 7: 9223372036854775808 -> 9223372036854775811
+        Worry Level 8: 9223372036854775808 -> 9223372036854775811
+        Worry Level 9: 9223372036854775808 -> 9223372036854775811
+Round 14: 
+    Monkey 0: 
+    Monkey 1: 
+        Worry Level 0: 15 -> 21
+        Worry Level 1: 15 -> 21
+        Worry Level 2: 15 -> 21
+        Worry Level 3: 15 -> 21
+        Worry Level 4: 15 -> 21
+        Worry Level 5: 15 -> 21
+        Worry Level 6: 15 -> 21
+        Worry Level 7: 15 -> 21
+        Worry Level 8: 15 -> 21
+        Worry Level 9: 15 -> 21
+    Monkey 2: 
+    Monkey 3: 
+Round 15: 
+    Monkey 0: 
+        Worry Level 0: 1 -> 19
+        Worry Level 1: 1 -> 19
+        Worry Level 2: 1 -> 19
+        Worry Level 3: 1 -> 19
+        Worry Level 4: 1 -> 19
+        Worry Level 5: 1 -> 19
+        Worry Level 6: 1 -> 19
+        Worry Level 7: 1 -> 19
+        Worry Level 8: 1 -> 19
+        Worry Level 9: 1 -> 19
+    Monkey 1: 
+    Monkey 2: 
+        Worry Level 0: 0 -> 0
+        Worry Level 1: 0 -> 0
+        Worry Level 2: 0 -> 0
+        Worry Level 3: 0 -> 0
+        Worry Level 4: 0 -> 0
+        Worry Level 5: 0 -> 0
+        Worry Level 6: 0 -> 0
+        Worry Level 7: 0 -> 0
+        Worry Level 8: 0 -> 0
+        Worry Level 9: 0 -> 0
+    Monkey 3: 
+        Worry Level 0: 9223372036854775808 -> 9223372036854775811
+        Worry Level 1: 9223372036854775808 -> 9223372036854775811
+        Worry Level 2: 9223372036854775808 -> 9223372036854775811
+        Worry Level 3: 9223372036854775808 -> 9223372036854775811
+        Worry Level 4: 9223372036854775808 -> 9223372036854775811
+        Worry Level 5: 9223372036854775808 -> 9223372036854775811
+        Worry Level 6: 9223372036854775808 -> 9223372036854775811
+        Worry Level 7: 9223372036854775808 -> 9223372036854775811
+        Worry Level 8: 9223372036854775808 -> 9223372036854775811
+        Worry Level 9: 9223372036854775808 -> 9223372036854775811
+Round 16: 
+    Monkey 0: 
+    Monkey 1: 
+        Worry Level 0: 15 -> 21
+        Worry Level 1: 15 -> 21
+        Worry Level 2: 15 -> 21
+        Worry Level 3: 15 -> 21
+        Worry Level 4: 15 -> 21
+        Worry Level 5: 15 -> 21
+        Worry Level 6: 15 -> 21
+        Worry Level 7: 15 -> 21
+        Worry Level 8: 15 -> 21
+        Worry Level 9: 15 -> 21
+    Monkey 2: 
+    Monkey 3: 
+Round 17: 
+    Monkey 0: 
+        Worry Level 0: 1 -> 19
+        Worry Level 1: 1 -> 19
+        Worry Level 2: 1 -> 19
+        Worry Level 3: 1 -> 19
+        Worry Level 4: 1 -> 19
+        Worry Level 5: 1 -> 19
+        Worry Level 6: 1 -> 19
+        Worry Level 7: 1 -> 19
+        Worry Level 8: 1 -> 19
+        Worry Level 9: 1 -> 19
+    Monkey 1: 
+    Monkey 2: 
+        Worry Level 0: 0 -> 0
+        Worry Level 1: 0 -> 0
+        Worry Level 2: 0 -> 0
+        Worry Level 3: 0 -> 0
+        Worry Level 4: 0 -> 0
+        Worry Level 5: 0 -> 0
+        Worry Level 6: 0 -> 0
+        Worry Level 7: 0 -> 0
+        Worry Level 8: 0 -> 0
+        Worry Level 9: 0 -> 0
+    Monkey 3: 
+        Worry Level 0: 9223372036854775808 -> 9223372036854775811
+        Worry Level 1: 9223372036854775808 -> 9223372036854775811
+        Worry Level 2: 9223372036854775808 -> 9223372036854775811
+        Worry Level 3: 9223372036854775808 -> 9223372036854775811
+        Worry Level 4: 9223372036854775808 -> 9223372036854775811
+        Worry Level 5: 9223372036854775808 -> 9223372036854775811
+        Worry Level 6: 9223372036854775808 -> 9223372036854775811
+        Worry Level 7: 9223372036854775808 -> 9223372036854775811
+        Worry Level 8: 9223372036854775808 -> 9223372036854775811
+        Worry Level 9: 9223372036854775808 -> 9223372036854775811
+Round 18: 
+    Monkey 0: 
+    Monkey 1: 
+        Worry Level 0: 15 -> 21
+        Worry Level 1: 15 -> 21
+        Worry Level 2: 15 -> 21
+        Worry Level 3: 15 -> 21
+        Worry Level 4: 15 -> 21
+        Worry Level 5: 15 -> 21
+        Worry Level 6: 15 -> 21
+        Worry Level 7: 15 -> 21
+        Worry Level 8: 15 -> 21
+        Worry Level 9: 15 -> 21
+    Monkey 2: 
+    Monkey 3: 
+Round 19: 
+    Monkey 0: 
+        Worry Level 0: 1 -> 19
+        Worry Level 1: 1 -> 19
+        Worry Level 2: 1 -> 19
+        Worry Level 3: 1 -> 19
+        Worry Level 4: 1 -> 19
+        Worry Level 5: 1 -> 19
+        Worry Level 6: 1 -> 19
+        Worry Level 7: 1 -> 19
+        Worry Level 8: 1 -> 19
+        Worry Level 9: 1 -> 19
+    Monkey 1: 
+    Monkey 2: 
+        Worry Level 0: 0 -> 0
+        Worry Level 1: 0 -> 0
+        Worry Level 2: 0 -> 0
+        Worry Level 3: 0 -> 0
+        Worry Level 4: 0 -> 0
+        Worry Level 5: 0 -> 0
+        Worry Level 6: 0 -> 0
+        Worry Level 7: 0 -> 0
+        Worry Level 8: 0 -> 0
+        Worry Level 9: 0 -> 0
+    Monkey 3: 
+        Worry Level 0: 9223372036854775808 -> 9223372036854775811
+        Worry Level 1: 9223372036854775808 -> 9223372036854775811
+        Worry Level 2: 9223372036854775808 -> 9223372036854775811
+        Worry Level 3: 9223372036854775808 -> 9223372036854775811
+        Worry Level 4: 9223372036854775808 -> 9223372036854775811
+        Worry Level 5: 9223372036854775808 -> 9223372036854775811
+        Worry Level 6: 9223372036854775808 -> 9223372036854775811
+        Worry Level 7: 9223372036854775808 -> 9223372036854775811
+        Worry Level 8: 9223372036854775808 -> 9223372036854775811
+        Worry Level 9: 9223372036854775808 -> 9223372036854775811
+Monkey 0 inspections: 101
+Monkey 1 inspections: 95
+Monkey 2 inspections: 98
+Monkey 3 inspections: 106
+Monkey business: 10706

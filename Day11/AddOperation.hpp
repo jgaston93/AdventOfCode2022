@@ -6,9 +6,9 @@
 class AddOperation : Operation
 {
     public:
-        AddOperation(int value);
+        AddOperation(unsigned long long int value);
         ~AddOperation();
-        virtual int PerformOperation(int input);
+        virtual unsigned long long int PerformOperation(unsigned long long int input);
 };
 
 #endif // ADD_OPERATION_HPP

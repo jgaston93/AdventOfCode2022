@@ -4,12 +4,12 @@
 class Operation
 {
     public:
-        Operation(int value);
+        Operation(unsigned long long int value);
         ~Operation();
-        virtual int PerformOperation(int input);
+        virtual unsigned long long int PerformOperation(unsigned long long int input);
 
     protected:
-        int m_value;
+        unsigned long long int m_value;
 };
 
 #endif // OPERATION_HPP

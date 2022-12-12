@@ -6,9 +6,9 @@
 class MultiplyOperation : Operation
 {
     public:
-        MultiplyOperation(int value);
+        MultiplyOperation(unsigned long long int value);
         ~MultiplyOperation();
-        virtual int PerformOperation(int input);
+        virtual unsigned long long int PerformOperation(unsigned long long int input);
 };
 
 #endif // MULTIPLY_OPERATION_HPP
