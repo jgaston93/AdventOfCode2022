@@ -119,26 +119,10 @@ int main()
     const int num_rounds = 20;
     for(int i = 0; i < num_rounds; i++)
     {
-        printf("Round %d: \n", i);
         for(int j = 0; j < num_monkeys; j++)
         {
-            printf("    Monkey %d: \n", j);
             monkeys[j]->TakeTurn();
         }
-
-        // for(int j = 0; j < num_monkeys; j++)
-        // {
-        //     int items[64];
-        //     int num_items = monkeys[j]->GetItems(items);
-
-        //     printf("Monkey %d: ", j);
-        //     for(int k = 0; k < num_items; k++)
-        //     {
-        //         printf("%d ", items[k]);
-        //     }
-        //     printf("\n");
-        // }
-        // printf("\n");
     }
 
     unsigned long long int max_1 = 0;

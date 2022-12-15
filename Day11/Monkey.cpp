@@ -27,14 +27,17 @@ void Monkey::TakeTurn()
 {
     for(int i = 0; i < m_num_items; i++)
     {
-        printf("        Worry Level %i: %llu -> ", i, m_item_list[i]);
         unsigned long long int new_item = m_operation->PerformOperation(m_item_list[i]);
-        printf("%llu\n", new_item);
         if(new_item < m_item_list[i])
         {
             printf("        !!!!Overflow!!!!\n");
         }
         m_item_list[i] = new_item;
+
+        unsigned long long int remainder = m_item_list[i] % m_test_value;
+
+        m_item_list[i] = remainder;
+        
 
         if(m_item_list[i] % m_test_value == 0)
         {
